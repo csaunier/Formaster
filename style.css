@@ -1,0 +1,67 @@
+/*  ##### DEMO ONLY ############################# */
+fieldset {
+  margin: 20px;
+}
+
+h1 {
+  margin: 20px;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.set2 .title {
+  width: 150px;
+  font-weight: bold;
+}
+
+/*  ##### MISCELLANEOUS ############################# */
+label {
+  line-height: 25px;
+}
+
+.line input[type="text"], .line select, .line textarea {
+  width: 100%;
+}
+
+/*  ##### TEMLATING ############################# */
+.line {
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0;
+  float: left;
+  width: 100%;
+}
+.line .line {
+  padding: 0;
+}
+.line:last-child, .line.last {
+  border-bottom: none;
+}
+
+.master {
+  float: left;
+}
+
+.other {
+  float: none;
+  width: auto;
+  display: table-cell;
+  padding: 0 0 0 10px;
+}
+
+.other:after {
+  content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
+  visibility: hidden;
+  clear: both;
+  height: 0 !important;
+  display: block;
+  line-height: 0;
+}
+
+/* Master on right */
+.rightMaster .master {
+  float: right;
+}
+
+.rightMaster .other {
+  padding: 0 10px 0 0;
+}
