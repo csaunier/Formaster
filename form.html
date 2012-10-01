@@ -17,14 +17,14 @@
       
       <div class="line">
         <label for="field1" class="master">Label</label>
-        <div class="input other">
+        <div class="input slave">
           <input type="text" value="" placeholder="Text input" id="field1" name="field1" tabindex="1" autofocus="autofocus"  >
         </div>
       </div>
 
       <div class="line">
         <label for="field2" class="master">Champs 3</label>
-        <div class="input other">
+        <div class="input slave">
           <input type="text" value="" placeholder="Text qui s'adapte au reste de la largeur" id="field2" name="field2" tabindex="2"  >
         </div>
       </div>
@@ -33,12 +33,12 @@
         <div class="input master">
           <input type="text" value="" placeholder="input texte" id="field3" name="field3" tabindex="3"  >
         </div>
-        <label for="field3" class="other">Label qui s'adapte au texte</label>
+        <label for="field3" class="slave">Label qui s'adapte au texte</label>
       </div>
 
       <div class="line">
         <label for="field4" class="master">Textarea 1</label>
-        <div class="input other">
+        <div class="input slave">
           <textarea id="field4" name="field4" tabindex="4">Le textarea s'étend selon la place restante</textarea>
         </div>
       </div>
@@ -47,12 +47,12 @@
         <div class="input master">
           <textarea id="field5" name="field5" tabindex="5"></textarea>
         </div>
-        <label for="field5" class="other">Le label s'adapte au textarea</label>
+        <label for="field5" class="slave">Le label s'adapte au textarea</label>
       </div>
 
       <div class="line">
         <label for="field6" class="master">Le select s'adapte au label</label>
-        <div class="input other">
+        <div class="input slave">
           <select id="field6" name="field6" tabindex="6">
             <option value="">ComboBox</option>
             <option value="">ComboBox</option>
@@ -63,7 +63,7 @@
 
       <div class="line">
         <label class="master">Datepicker dropdown, le dernier doit prendre la place restante</label>
-        <div class="other">
+        <div class="slave">
           
           <div class="master">
             <select id="datepicker1" tabindex="7">
@@ -77,7 +77,7 @@
             </select>
           </div>
 
-          <div class="other">
+          <div class="slave">
             <select id="datepicker3" tabindex="9">
               <option>Year</option>
             </select>
@@ -88,14 +88,14 @@
 
       <div class="line">
         <label class="master">Plusieurs textinputs</label>
-        <div class="other">
+        <div class="slave">
           <div class="master">
             <input type="text" value="" placeholder="Text input A" name="textinput_a" tabindex="10">
           </div>
           <div class="master">
             <input type="text" value="" placeholder="Text input B" name="textinput_b" tabindex="11">
           </div>
-          <div class="other">
+          <div class="slave">
             <input type="text" value="" placeholder="Text input C" name="textinput_c" tabindex="12">
           </div>
         </div>
@@ -107,30 +107,30 @@
       <legend>Radios et checkboxes</legend>
       <div class="line">
         <div class="master title">Radios en ligne dont le texte reste solidaire</div>
-        <div class="other">
+        <div class="slave">
           <div class="master">
             <input type="radio" name="radios_1" value="" tabindex="13">
           </div>
-          <div class="other"><label>Radio 1</label></div>
+          <div class="slave"><label>Radio 1</label></div>
         
-        <div class="other">
+        <div class="slave">
           <div class="master">
             <input type="radio" name="radios_1" value="" tabindex="14">
           </div>
-          <div class="other"><label>Radio 2 avec texte qui ne retourne pas à la ligne suivante</label></div>
+          <div class="slave"><label>Radio 2 avec texte qui ne retourne pas à la ligne suivante</label></div>
         </div>
         <div class="line">
           <div class="master">
             <input type="radio" name="radios_1" value="" tabindex="15">
           </div>
-          <div class="other"><label>Radio en ligne</label></div>
+          <div class="slave"><label>Radio en ligne</label></div>
         </div>
         </div>
       </div>
 
       <div class="line">
         <div class="master title">Liste de radios génériques</div>
-        <div class="other">
+        <div class="slave">
           <div class="line">
             <input type="radio" name="radios_2" checked="checked" value="" tabindex="16">
             <label>radio 1 (checked)</label>
@@ -148,30 +148,30 @@
 
       <div class="line">
         <div class="master title">Checkboxes dont le texte reste solidaire</div>
-        <div class="other">
+        <div class="slave">
           <div class="master">
             <input type="checkbox" value="" name="checkbox1" tabindex="19">
           </div>
-          <div class="other"><label>Checkbox 1</label></div>
+          <div class="slave"><label>Checkbox 1</label></div>
         
-        <div class="other">
+        <div class="slave">
           <div class="master">
             <input type="checkbox" value="" name="checkbox2" tabindex="20">
           </div>
-          <div class="other"><label>Checkbox 2 avec texte qui ne retourne pas à la ligne suivante</label></div>
+          <div class="slave"><label>Checkbox 2 avec texte qui ne retourne pas à la ligne suivante</label></div>
         </div>
         <div class="line">
           <div class="master">
             <input type="checkbox" value="" name="checkbox3" tabindex="21">
           </div>
-          <div class="other"><label>Checkbox 3</label></div>
+          <div class="slave"><label>Checkbox 3</label></div>
         </div>
         </div>
       </div>
 
       <div class="line">
         <div class="master title">Liste de checkboxes génériques à la verticale</div>
-        <div class="other">
+        <div class="slave">
           <div class="line">
             <input type="checkbox" checked="checked" value="" name="checkbox4" tabindex="22">
             <label>checkbox 1 (checked)</label>

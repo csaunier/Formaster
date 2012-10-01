@@ -1,7 +1,7 @@
 Formaster
 =========
 
-Form / inputs markup to define dominant element and other which will share lasting space
+Form / inputs markup to define Master element and Slaves which will share lasting space
 
 **[try demo here](http://jsfiddle.net/dahfazz/Mwpbu/15/)**
 
@@ -29,30 +29,30 @@ Being Master means that element will suffer no width restriction
 <div class="master"></div>
 ```
 
-Other
+Slave
 -----
 
-Around Master, you'll find Other elements.
+Around Master, you'll find Slave elements.
 
 They will share the lasting width, left by Master
 
 ```html
-<div class="other"></div>
+<div class="slave"></div>
 ```
 
 Nested
 ------
 
-For complex template, you can recreate a Master / Others relation inside a Master or Other section
+For complex template, you can recreate a Master / Slaves relation inside a Master or Slave section
 
 ```html 
 <div class="master"></div>
-<div class="other"></div>
-<div class="other">
+<div class="slave"></div>
+<div class="slave">
   <div class="master"></div>
-  <div class="other"></div>
-  <div class="other"></div>
+  <div class="slave"></div>
+  <div class="slave"></div>
 </div>
 ```
 
-> Nested Others will share left space by their Master, inside the containing Other width scope
+> Nested Slaves will share left space by their Master, inside the containing Slave width scope

@@ -41,14 +41,14 @@ label {
   float: left;
 }
 
-.other {
+.slave {
   float: none;
   width: auto;
   display: table-cell;
   padding: 0 0 0 10px;
 }
 
-.other:after {
+.slave:after {
   content: " . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ";
   visibility: hidden;
   clear: both;
@@ -62,6 +62,6 @@ label {
   float: right;
 }
 
-.rightMaster .other {
+.rightMaster .slave {
   padding: 0 10px 0 0;
 }
