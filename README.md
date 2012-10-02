@@ -3,7 +3,7 @@ Formaster
 
 Form / inputs markup to define Master element and Slaves which will share lasting space
 
-**[try demo here](http://cssdesk.com/Y3SRX)**
+**[try demo here](http://cssdesk.com/93BFM)**
 
 Line
 ----
