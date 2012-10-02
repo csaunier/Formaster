@@ -1,4 +1,4 @@
-/*  ##### MISCELLANEOUS ############################# */
+/* Miscellaneous */
 label {
   line-height: 25px;
 }
@@ -7,7 +7,7 @@ label {
   width: 100%;
 }
 
-/*  ##### TEMLATING ############################# */
+/* Templating */
 .line {
   border-bottom: 1px dotted #ccc;
   padding: 10px 0;
@@ -54,3 +54,12 @@ label {
   padding: 0 10px 0 0;
 }
 ​
+/* Media queries */
+@media screen and (max-width: 480px) {
+    .master {
+      width: 100%;
+    }
+    .master .master, .slave .master {
+      width: auto;
+    }
+}
