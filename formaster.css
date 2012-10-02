@@ -1,0 +1,56 @@
+/*  ##### MISCELLANEOUS ############################# */
+label {
+  line-height: 25px;
+}
+
+.line input[type="text"], .line select, .line textarea {
+  width: 100%;
+}
+
+/*  ##### TEMLATING ############################# */
+.line {
+  border-bottom: 1px dotted #ccc;
+  padding: 10px 0;
+}
+
+.line:after, .line:before {
+  content : "";
+  display: table;
+}
+
+.line:after {
+  clear: both;
+}
+
+.line .line {
+  padding: 0;
+}
+.line:last-child, .line.last {
+  border-bottom: none;
+}
+
+.master {
+  float: left;
+  margin-right: 10px;
+}
+
+.slave{
+  float: none;
+  width: auto;
+  display: table-cell;
+  width: 10000px;
+  box-sizing: border-box;
+}
+
+
+/* Master on right */
+.rightMaster .master {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.rightMaster .slave {
+  padding: 0 10px 0 0;
+}
+​
